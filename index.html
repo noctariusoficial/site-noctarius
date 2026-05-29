@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -9,82 +10,148 @@
 <style>
 
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
 }
 
 body{
-font-family: Georgia, serif;
-background:#05070b;
-color:#f5f5f5;
-line-height:1.7;
+    background:#05070b;
+    color:#f5f5f5;
+    font-family:Georgia, serif;
+    line-height:1.8;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:rgba(0,0,0,0.85);
+    padding:20px;
+    text-align:center;
+    z-index:1000;
+}
+
+nav a{
+    color:#d8b574;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:0.95rem;
+    letter-spacing:1px;
+}
+
+nav a:hover{
+    color:white;
 }
 
 header{
-height:100vh;
-background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.85)),
-url('https://images.unsplash.com/photo-1518709268805-4e9042af2176?q=80&w=1800');
-background-size:cover;
-background-position:center;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-padding:20px;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+
+    background:
+    linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.85)),
+    url("https://images.unsplash.com/photo-1518562180175-34a163b1a9a6?auto=format&fit=crop&w=1800&q=80");
+
+    background-size:cover;
+    background-position:center;
+}
+
+.hero{
+    max-width:900px;
 }
 
 .hero h1{
-font-size:4rem;
-letter-spacing:4px;
-margin-bottom:20px;
+    font-size:5rem;
+    letter-spacing:5px;
+    margin-bottom:10px;
 }
 
 .hero h2{
-font-size:1.8rem;
-font-weight:normal;
-color:#c9c9c9;
-margin-bottom:30px;
+    font-size:2rem;
+    color:#d8b574;
+    margin-bottom:25px;
+    font-weight:normal;
+}
+
+.quote{
+    font-size:1.3rem;
+    font-style:italic;
+    color:#cfcfcf;
+    margin-bottom:40px;
 }
 
 .btn{
-display:inline-block;
-padding:14px 28px;
-margin:8px;
-border:1px solid #caa86a;
-color:#caa86a;
-text-decoration:none;
-transition:.3s;
+    display:inline-block;
+    padding:14px 28px;
+    margin:8px;
+    border:1px solid #d8b574;
+    color:#d8b574;
+    text-decoration:none;
+    transition:0.3s;
 }
 
 .btn:hover{
-background:#caa86a;
-color:#000;
+    background:#d8b574;
+    color:#000;
 }
 
 section{
-max-width:1100px;
-margin:auto;
-padding:80px 25px;
+    max-width:1100px;
+    margin:auto;
+    padding:90px 25px;
 }
 
 h3{
-font-size:2rem;
-margin-bottom:20px;
-color:#d7b377;
+    color:#d8b574;
+    font-size:2.2rem;
+    margin-bottom:25px;
 }
 
-.album{
-background:#0d121a;
-padding:30px;
-border-radius:10px;
+.card{
+    background:#0d121a;
+    padding:35px;
+    border-radius:10px;
+    border:1px solid #1d2430;
+}
+
+.tracks{
+    columns:2;
 }
 
 footer{
-text-align:center;
-padding:40px;
-border-top:1px solid #222;
-color:#888;
+    text-align:center;
+    padding:50px 20px;
+    border-top:1px solid #1a1a1a;
+    color:#888;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:3rem;
+}
+
+.hero h2{
+    font-size:1.4rem;
+}
+
+.tracks{
+    columns:1;
+}
+
+nav a{
+    display:inline-block;
+    margin:5px;
+}
+
 }
 
 </style>
@@ -92,67 +159,120 @@ color:#888;
 
 <body>
 
+<nav>
+    <a href="#obra">A Obra</a>
+    <a href="#faixas">Faixas</a>
+    <a href="#sobre">Noctarius</a>
+    <a href="#contato">Contato</a>
+</nav>
+
 <header>
+
 <div class="hero">
 
 <h1>NOCTARIUS</h1>
 
 <h2>A Symphony of Ashes</h2>
 
-<a href="#" class="btn">Ouça Agora</a>
+<p class="quote">
+"If the world must change,<br>
+then let it change."
+</p>
 
-<a href="#obra" class="btn">A História</a>
+<a href="#" class="btn">OUÇA AGORA</a>
+<a href="#obra" class="btn">EXPLORAR A OBRA</a>
 
 </div>
+
 </header>
 
 <section id="obra">
 
 <h3>A Obra</h3>
 
-<div class="album">
+<div class="card">
 
 <p>
-A Symphony of Ashes é uma jornada através da queda,
-do poder, da memória e da transcendência.
-Uma obra conceitual criada por Noctarius,
-onde cada música representa um capítulo de uma narrativa maior.
+A Symphony of Ashes é uma obra conceitual que explora a ascensão,
+a queda e a transformação de um mundo marcado por suas próprias escolhas.
+Entre impérios em decadência, sonhos despedaçados e ecos de um passado distante,
+cada canção representa um capítulo de uma narrativa maior.
+</p>
+
+<br>
+
+<p>
+Mais do que um álbum, A Symphony of Ashes é uma experiência construída
+para conduzir o ouvinte através de emoções profundas,
+conflitos internos e momentos de descoberta.
 </p>
 
 </div>
 
 </section>
 
-<section>
+<section id="faixas">
 
 <h3>Faixas</h3>
 
+<div class="card tracks">
+
 <p>
-March of the Fallen<br>
-Twisted Heart<br>
-If I Could Dream<br>
-e outras faixas do álbum.
+• March of the Fallen<br>
+• Twisted Heart<br>
+• If I Could Dream<br>
+• (demais faixas em breve)
 </p>
+
+</div>
 
 </section>
 
-<section>
+<section id="sobre">
 
-<h3>Universo</h3>
+<h3>Noctarius</h3>
+
+<div class="card">
 
 <p>
-Entre ruínas, sombras e ecos de antigos reinos,
-A Symphony of Ashes explora a transformação do mundo
-e daqueles que permanecem após sua queda.
+Noctarius é um projeto de Rock e Metal Sinfônico dedicado à criação
+de histórias épicas através da música.
+Combinando elementos orquestrais, atmosferas cinematográficas
+e narrativas sombrias, cada lançamento busca transportar o ouvinte
+para um universo onde fantasia, filosofia e emoção caminham lado a lado.
 </p>
+
+</div>
+
+</section>
+
+<section id="contato">
+
+<h3>Contato</h3>
+
+<div class="card">
+
+<p>
+Spotify<br>
+YouTube<br>
+Instagram<br>
+noctarius.com.br
+</p>
+
+</div>
 
 </section>
 
 <footer>
 
-NOCTARIUS © 2026
+<p>© 2026 Noctarius</p>
+
+<p>
+"If the world must change, then let it change."
+</p>
 
 </footer>
 
 </body>
 </html>
+```
