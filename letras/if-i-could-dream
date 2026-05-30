@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>If I Could Dream | Noctarius</title>
+
+<style>
+
+body{
+    background:#05070b;
+    color:#f5f5f5;
+    font-family:Georgia, serif;
+    max-width:900px;
+    margin:auto;
+    padding:40px 20px;
+    line-height:1.9;
+}
+
+.logo{
+    text-align:center;
+    color:#d8b574;
+    font-size:0.9rem;
+    letter-spacing:4px;
+    margin-bottom:20px;
+}
+
+.cover{
+    display:block;
+    margin:30px auto;
+    max-width:500px;
+    width:100%;
+    height:auto;
+    border-radius:10px;
+    box-shadow:0 0 25px rgba(0,0,0,.5);
+}
+
+h1{
+    color:#d8b574;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+h2{
+    text-align:center;
+    font-weight:normal;
+    margin-bottom:40px;
+    color:#999;
+}
+
+.lyrics{
+    white-space:pre-line;
+    font-size:1.1rem;
+}
+
+.navigation{
+    display:flex;
+    justify-content:space-between;
+    margin-top:60px;
+    border-top:1px solid #222;
+    padding-top:20px;
+}
+
+a{
+    color:#d8b574;
+    text-decoration:none;
+}
+
+a:hover{
+    color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="logo">NOCTARIUS</div>
+
+<h1>If I Could Dream</h1>
+
+<img
+src="../images/tracks/nocificoulddream.png"
+alt="If I Could Dream"
+class="cover">
+
+<h2>A Symphony of Ashes</h2>
+
+<div class="lyrics">
+
+If I could dream beyond this night
+Where shadows fade and hearts feel light
+I’d paint a sky with fearless stars
+And mend the cracks we hide as scars
+
+I’ve been holding on to broken prayers
+Whispered hopes in empty air
+But somewhere deep, I still believe
+There’s more to life than what I see
+
+If I could dream, I’d dream of you
+Of open roads and something true
+No walls between what’s right and wrong
+Just one clear voice, one honest song
+
+If I could dream, I’d finally be
+The person I was meant to be
+
+I’ve walked through fire, I’ve learned to bend
+Lost myself, found strength again
+Every tear became a sign
+That even pain can redefine
+
+I don’t need a perfect world
+Just a place where flags are furled
+Where love is louder than our fear
+And tomorrow feels sincere
+
+If I could dream, I’d dream of you
+Of second chances breaking through
+No chains of doubt, no weight of blame
+Just hearts that dare to feel the same
+
+If I could dream, I’d finally see
+Hope staring back at me
+
+Maybe dreams are meant to hurt
+Before they show what we’re worth
+Maybe faith is just the act
+Of standing tall when hope cracks
+
+I’m not asking for the sky
+Just a reason not to say goodbye
+
+If I could dream, I’d dream out loud
+No more lost inside the crowd
+I’d let my voice refuse to bend
+I’d choose love in the end
+
+If I could dream, I’d make it real
+Every word, every scar I feel
+
+If I could dream…
+I’d start tonight.
+
+</div>
+
+<div class="navigation">
+
+<a href="anarchy-rising.html">← Música Anterior</a>
+
+<a href="its-late.html">Próxima Música →</a>
+
+</div>
+
+</body>
+</html>
