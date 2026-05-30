@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>It's Late | Noctarius</title>
+
+<style>
+
+body{
+    background:#05070b;
+    color:#f5f5f5;
+    font-family:Georgia, serif;
+    max-width:900px;
+    margin:auto;
+    padding:40px 20px;
+    line-height:1.9;
+}
+
+.logo{
+    text-align:center;
+    color:#d8b574;
+    font-size:0.9rem;
+    letter-spacing:4px;
+    margin-bottom:20px;
+}
+
+.cover{
+    display:block;
+    margin:30px auto;
+    max-width:500px;
+    width:100%;
+    height:auto;
+    border-radius:10px;
+    box-shadow:0 0 25px rgba(0,0,0,.5);
+}
+
+h1{
+    color:#d8b574;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+h2{
+    text-align:center;
+    font-weight:normal;
+    margin-bottom:40px;
+    color:#999;
+}
+
+.lyrics{
+    white-space:pre-line;
+    font-size:1.1rem;
+}
+
+.navigation{
+    display:flex;
+    justify-content:space-between;
+    margin-top:60px;
+    border-top:1px solid #222;
+    padding-top:20px;
+}
+
+a{
+    color:#d8b574;
+    text-decoration:none;
+}
+
+a:hover{
+    color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="logo">NOCTARIUS</div>
+
+<h1>It's Late</h1>
+
+<img
+src="../images/tracks/nocitslate.png"
+alt="It's Late"
+class="cover">
+
+<h2>A Symphony of Ashes</h2>
+
+<div class="lyrics">
+
+It’s late, and all the city lights
+Are fading underneath the falling rain.
+
+I’m tracing every word we said,
+All the promises we left for some other day.
+
+And though I try to walk away,
+Your name keeps pulling me back into the pain.
+
+I held the world inside my hands,
+But somehow I let you slip from me.
+
+Now I’m racing through the shadows,
+Trying to find where our ending used to be.
+
+Is it too late to turn around?
+Or can I still reach you somehow?
+
+Through every mistake I tried to hide,
+And every truth I kept inside…
+
+If there’s still a spark of what we were,
+Just call — and I’ll run back to you.
+
+I know you carried all your secrets,
+And I was scared to let you see my own.
+
+We tried to fill the empty spaces
+With words that never felt like “letting go.”
+
+But every step you take away
+Becomes an echo shaking me down to the bone.
+
+If I could bend the hands of time,
+Rewrite the shape of our sunrise…
+
+I’d chase away every shadow
+That made you wish to say goodbye.
+
+Is it too late to turn around?
+Or can I still reach you somehow?
+
+Through every mistake I tried to hide,
+And every truth I kept inside…
+
+If there’s still a spark of what we were,
+Just call — and I’ll run back to your voice.
+
+And when the night grows loud around me,
+I feel the weight of what I lost.
+
+I cry your name into the darkness,
+But I know you can’t hear my voice at all.
+
+Still I keep on moving forward,
+’Cause something in me refuses to let you fall…
+
+It’s late, but I still whisper your name.
+It’s late, but the memory burns like a flame.
+
+If fate decides to shift again,
+And our paths collide just like back then…
+
+I’ll be right there, I promise I will —
+It’s late, but loving you lingers still.
+
+</div>
+
+<div class="navigation">
+
+<a href="if-i-could-dream.html">← Música Anterior</a>
+
+<a href="twisted-heart.html">Próxima Música →</a>
+
+</div>
+
+</body>
+</html>
